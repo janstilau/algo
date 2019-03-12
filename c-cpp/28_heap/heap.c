@@ -13,7 +13,7 @@ struct element {
 };
 
 struct heap {
-	union {
+	union {// 因为堆实际上是从1开始的, 所以第一个元素的位置浪费掉了. 所以, 这里用 union, 将数组的第一个元素使用了. 个人觉得没有必要.
 		unsigned long elements;
 		struct element *elem[MAX_HEAP_SIZE];
 	};

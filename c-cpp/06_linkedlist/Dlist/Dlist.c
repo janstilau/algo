@@ -21,9 +21,9 @@ void dlist_init(stDlistHead *dlist)		//链表初始化
 
 void dlist_destory(stDlistHead *dlist)
 {
-	stDlistNode *pNode = NULL;
-	
-	while(dlist->size > 0)
+    stDlistNode *pNode = NULL;
+    
+    while(dlist->size > 0)
 	{
 		pNode = dlist->head;
 		dlist->head = dlist->head->next;
@@ -204,10 +204,9 @@ int main()
     Lru_dlist(&dlist,5);
 	dlist_dump(&dlist);
 
-∑
 
 	while(dlist.size > 0)
-	{œ
+	{
 	    pNode = dlist_remove_tail(&dlist);
 	    if(pNode != NULL)
 	    { 
