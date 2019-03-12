@@ -11,7 +11,7 @@
 @implementation MyArray
 {
     @private
-    NSMutableArray *_data;
+    NSMutableArray *_data; // 底层还是用了NSMutbaleArray 啊, 其实自己写, 应该把扩容操作都写到这个类里面, 这样是真正的自己的类库.
     NSUInteger _capacity;
     NSUInteger _count;
 }

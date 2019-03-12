@@ -204,10 +204,10 @@ int main()
     Lru_dlist(&dlist,5);
 	dlist_dump(&dlist);
 
-
+∑
 
 	while(dlist.size > 0)
-	{
+	{œ
 	    pNode = dlist_remove_tail(&dlist);
 	    if(pNode != NULL)
 	    { 
