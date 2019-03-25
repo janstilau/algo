@@ -1,0 +1,129 @@
+{
+    "success": true,
+    "data": {
+        "list": [
+            {
+                "id": 2790,
+                "people_id": 1817,
+                "sale_num": 612,
+                "buy_num": 144987,
+                "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/2f98d72a-1fca-4339-8869-e01ee6e91419.jpg",
+                "people_name": "木之本樱",
+                "my_stock": 0,
+                "stock_price": "100.6"
+            },
+            {
+                "id": 1621,
+                "people_id": 76,
+                "sale_num": 139,
+                "buy_num": 0,
+                "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/d2bbf397-4a4a-4875-96fb-83a79fb584cb.jpg",
+                "people_name": "西西里安",
+                "my_stock": 0,
+                "stock_price": "100"
+            },
+            {
+                "id": 3225,
+                "people_id": 2264,
+                "sale_num": 33,
+                "buy_num": 202027,
+                "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/1aee7832-65b2-4fc6-a6cc-4203ebb35fa9.jpg",
+                "people_name": "血小板",
+                "my_stock": 0,
+                "stock_price": "100"
+            },
+            {
+                "id": 3231,
+                "people_id": 2270,
+                "sale_num": 1,
+                "buy_num": 21,
+                "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/17b349d4-991a-4941-b105-7c899aceb2ca.jpg",
+                "people_name": "三笠·阿克曼",
+                "my_stock": 0,
+                "stock_price": "100"
+            },
+            {
+                "id": 1620,
+                "people_id": 75,
+                "sale_num": 0,
+                "buy_num": 6442484002,
+                "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/78bf1e94-25b8-4cc5-ac43-d5e763ac5377.jpg",
+                "people_name": "杰克",
+                "my_stock": 0,
+                "stock_price": "100"
+            },
+            {
+                "id": 1817,
+                "people_id": 280,
+                "sale_num": 0,
+                "buy_num": 22235,
+                "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/99579b90-9aca-48ec-ba6a-71f64f4f92a2.jpg",
+                "people_name": "香克斯",
+                "my_stock": 0,
+                "stock_price": "100"
+            },
+            {
+                "id": 2849,
+                "people_id": 1876,
+                "sale_num": 0,
+                "buy_num": 2212,
+                "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/271e1d9e-6fe0-4e9a-b62d-0b38c58b496c.jpg",
+                "people_name": "雅儿贝德12",
+                "my_stock": 0,
+                "stock_price": "100.2"
+            },
+            {
+                "id": 3639,
+                "people_id": 3614,
+                "sale_num": 0,
+                "buy_num": 250,
+                "head_thumb": "http://moego-test-1256467324.file.myqcloud.com/picture/drama/0f733646-d6d5-4d03-bb25-57fd57c527a6.jpg",
+                "people_name": "王陆",
+                "my_stock": 0,
+                "stock_price": "100"
+            },
+            {
+                "id": 3104,
+                "people_id": 2142,
+                "sale_num": 0,
+                "buy_num": 108,
+                "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/3fa9d248-4a0c-4261-af57-b8f5278d9b9f.jpg",
+                "people_name": "艾札克·佛斯特",
+                "my_stock": 0,
+                "stock_price": "100"
+            },
+            {
+                "id": 1941,
+                "people_id": 405,
+                "sale_num": 0,
+                "buy_num": 100,
+                "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/e840f4ea-cb34-4a18-a3a7-12f7103bb333.jpg",
+                "people_name": "阿金",
+                "my_stock": 0,
+                "stock_price": "100"
+            },
+            {
+                "id": 3640,
+                "people_id": 3615,
+                "sale_num": 0,
+                "buy_num": 100,
+                "head_thumb": "http://moego-test-1256467324.file.myqcloud.com/picture/drama/260b5d45-ebb7-41d4-98bb-173c4f380ea0.jpg",
+                "people_name": "王舞",
+                "my_stock": 0,
+                "stock_price": "100"
+            }
+        ],
+        "_links": {
+            "self": {
+                "href": "http://t.moegoapp.mocaapp.cn/stock/market/index?device_id=2fde5b46688c4117824ba692f62be795&platform=0&stock_type=0&app_version_code=27&timestamp=1553318383&access_token=N4wEIfLBy_DKABCUj55v8wmFyyCt7tGi&page=1&per-page=21"
+            }
+        },
+        "_meta": {
+            "totalCount": 11,
+            "pageCount": 1,
+            "currentPage": 1,
+            "perPage": 21
+        }
+    },
+    "time_point": 1553316568
+}

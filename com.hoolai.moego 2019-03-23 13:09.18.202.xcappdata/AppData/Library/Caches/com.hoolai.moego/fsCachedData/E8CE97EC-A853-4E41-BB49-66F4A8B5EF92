@@ -1,0 +1,562 @@
+{
+    "success": true,
+    "data": {
+        "list": [
+            {
+                "type": 0,
+                "section_title": "股价榜单",
+                "list": [
+                    {
+                        "type": 0,
+                        "section_title": "总榜",
+                        "id": 1817,
+                        "name": "木之本樱",
+                        "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/2f98d72a-1fca-4339-8869-e01ee6e91419.jpg",
+                        "price": "100.6",
+                        "quote_change": "+0.4%"
+                    },
+                    {
+                        "type": 1,
+                        "section_title": "新番榜",
+                        "id": 1876,
+                        "name": "雅儿贝德12",
+                        "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/271e1d9e-6fe0-4e9a-b62d-0b38c58b496c.jpg",
+                        "price": "100.2",
+                        "quote_change": "0%"
+                    },
+                    {
+                        "type": 2,
+                        "section_title": "上升榜",
+                        "id": 1817,
+                        "name": "木之本樱",
+                        "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/2f98d72a-1fca-4339-8869-e01ee6e91419.jpg",
+                        "price": "100.6",
+                        "quote_change": "+0.4%"
+                    },
+                    {
+                        "type": 3,
+                        "section_title": "下跌榜",
+                        "id": 99,
+                        "name": "卡西和欧伊摩",
+                        "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/8da536cd-a946-45cf-a416-0b279fdc6e12.jpg",
+                        "price": "100",
+                        "quote_change": "0%"
+                    },
+                    {
+                        "type": 4,
+                        "section_title": "分红榜",
+                        "id": 1817,
+                        "name": "木之本樱",
+                        "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/2f98d72a-1fca-4339-8869-e01ee6e91419.jpg",
+                        "price": "100.6",
+                        "dividend": 48
+                    }
+                ]
+            },
+            {
+                "type": 1,
+                "section_title": "关注版区",
+                "list": []
+            },
+            {
+                "type": 2,
+                "section_title": "推荐版区",
+                "list": [
+                    {
+                        "id": 8261,
+                        "name": "扩CP交朋友",
+                        "type": 1,
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/943135a7-13c9-47f0-97ad-762997c13b2c.jpg",
+                        "is_follow": 0
+                    },
+                    {
+                        "id": 8274,
+                        "name": "资讯新闻",
+                        "type": 1,
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/74859fbb-d8fd-499a-a4b4-47513242c268.png",
+                        "is_follow": 0
+                    },
+                    {
+                        "id": 8434,
+                        "name": "刀剑神域 Alicization",
+                        "type": 0,
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/32cd59b9-f85b-4090-88e7-70d759d3a2a4",
+                        "is_follow": 0
+                    },
+                    {
+                        "id": 8432,
+                        "name": "魔法禁书目录 第三季",
+                        "type": 0,
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/7e937ad0-bfa0-4a2a-bbd9-91779251b582.jpg",
+                        "is_follow": 0
+                    },
+                    {
+                        "id": 7239,
+                        "name": "进击的巨人第三季",
+                        "type": 0,
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/388c4dc2-c6a7-4d44-809f-982375e3bd62.jpg",
+                        "is_follow": 0
+                    },
+                    {
+                        "id": 1005,
+                        "name": "OVERLORD 第三季",
+                        "type": 0,
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/27ad6862-af4f-4d4b-b9fc-8e64054dbb0b.jpg",
+                        "is_follow": 0
+                    },
+                    {
+                        "id": 8283,
+                        "name": "轻小说",
+                        "type": 1,
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/46b9d416-8ebe-4934-b631-e7cd18c6f6da.jpg",
+                        "is_follow": 0
+                    }
+                ]
+            },
+            {
+                "type": 3,
+                "section_title": "推荐人物",
+                "list": [
+                    {
+                        "id": 1817,
+                        "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/2f98d72a-1fca-4339-8869-e01ee6e91419.jpg",
+                        "name": "木之本樱",
+                        "is_new_people": 0,
+                        "popular": 1,
+                        "drama_id": [
+                            "1116",
+                            "7125"
+                        ],
+                        "stock_price": "100.6",
+                        "normal_investment_status": 0,
+                        "black_investment_status": 0,
+                        "listing_status": 1,
+                        "listing_channel": 1,
+                        "quote_change": "+0.4%",
+                        "leaderboard": 1
+                    },
+                    {
+                        "id": 1875,
+                        "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/c1b47e76-4443-4d1a-ba21-d05b60af80b8",
+                        "name": "安兹·乌尔·恭",
+                        "is_new_people": 0,
+                        "popular": 1,
+                        "drama_id": [
+                            "1005",
+                            "7074",
+                            "7136"
+                        ],
+                        "stock_price": "100",
+                        "normal_investment_status": 0,
+                        "black_investment_status": 0,
+                        "listing_status": 1,
+                        "listing_channel": 1,
+                        "quote_change": "0%",
+                        "leaderboard": 15
+                    },
+                    {
+                        "id": 1876,
+                        "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/271e1d9e-6fe0-4e9a-b62d-0b38c58b496c.jpg",
+                        "name": "雅儿贝德12",
+                        "is_new_people": 1,
+                        "popular": 1,
+                        "drama_id": [
+                            "1005",
+                            "7074",
+                            "7136",
+                            "8031"
+                        ],
+                        "stock_price": "100.2",
+                        "normal_investment_status": 0,
+                        "black_investment_status": 0,
+                        "listing_status": 1,
+                        "listing_channel": 0,
+                        "quote_change": "0%",
+                        "leaderboard": 2
+                    },
+                    {
+                        "id": 2142,
+                        "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/3fa9d248-4a0c-4261-af57-b8f5278d9b9f.jpg",
+                        "name": "艾札克·佛斯特",
+                        "is_new_people": 0,
+                        "popular": 1,
+                        "drama_id": [
+                            "7208"
+                        ],
+                        "stock_price": "100",
+                        "normal_investment_status": 0,
+                        "black_investment_status": 0,
+                        "listing_status": 1,
+                        "listing_channel": 1,
+                        "quote_change": "0%",
+                        "leaderboard": 17
+                    },
+                    {
+                        "id": 2264,
+                        "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/1aee7832-65b2-4fc6-a6cc-4203ebb35fa9.jpg",
+                        "name": "血小板",
+                        "is_new_people": 0,
+                        "popular": 1,
+                        "drama_id": [],
+                        "stock_price": "100",
+                        "normal_investment_status": 1,
+                        "black_investment_status": 0,
+                        "listing_status": 1,
+                        "listing_channel": 1,
+                        "quote_change": "0%",
+                        "leaderboard": 19
+                    },
+                    {
+                        "id": 2270,
+                        "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/17b349d4-991a-4941-b105-7c899aceb2ca.jpg",
+                        "name": "三笠·阿克曼",
+                        "is_new_people": 0,
+                        "popular": 1,
+                        "drama_id": [
+                            "7239"
+                        ],
+                        "stock_price": "100",
+                        "normal_investment_status": 0,
+                        "black_investment_status": 0,
+                        "listing_status": 1,
+                        "listing_channel": 1,
+                        "quote_change": "0%",
+                        "leaderboard": 21
+                    },
+                    {
+                        "id": 2696,
+                        "head_thumb": "http://moego-prod-1256467324.file.myqcloud.com/picture/people/ebea66ef-3b37-4e6f-8323-3161028b75ed.jpg",
+                        "name": "叶修",
+                        "is_new_people": 0,
+                        "popular": 1,
+                        "drama_id": [
+                            "8032"
+                        ],
+                        "stock_price": "100",
+                        "normal_investment_status": 0,
+                        "black_investment_status": 0,
+                        "listing_status": 2,
+                        "listing_channel": 0,
+                        "quote_change": "0%",
+                        "leaderboard": null
+                    },
+                    {
+                        "id": 3614,
+                        "head_thumb": "http://moego-test-1256467324.file.myqcloud.com/picture/drama/0f733646-d6d5-4d03-bb25-57fd57c527a6.jpg",
+                        "name": "王陆",
+                        "is_new_people": 0,
+                        "popular": 1,
+                        "drama_id": [
+                            "7343"
+                        ],
+                        "stock_price": "100",
+                        "normal_investment_status": 0,
+                        "black_investment_status": 0,
+                        "listing_status": 1,
+                        "listing_channel": 1,
+                        "quote_change": "0%",
+                        "leaderboard": 27
+                    },
+                    {
+                        "id": 3615,
+                        "head_thumb": "http://moego-test-1256467324.file.myqcloud.com/picture/drama/260b5d45-ebb7-41d4-98bb-173c4f380ea0.jpg",
+                        "name": "王舞",
+                        "is_new_people": 0,
+                        "popular": 1,
+                        "drama_id": [
+                            "7343"
+                        ],
+                        "stock_price": "100",
+                        "normal_investment_status": 0,
+                        "black_investment_status": 0,
+                        "listing_status": 1,
+                        "listing_channel": 1,
+                        "quote_change": "0%",
+                        "leaderboard": 28
+                    }
+                ]
+            },
+            {
+                "type": 4,
+                "section_title": "推荐番剧",
+                "list": [
+                    {
+                        "id": 8031,
+                        "name": "武庚纪1",
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/dcb050a5-4427-4abc-8b01-12e4eb5df600.jpg",
+                        "up_time": 0
+                    },
+                    {
+                        "id": 8361,
+                        "name": "刀剑神域 Alicization",
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/32cd59b9-f85b-4090-88e7-70d759d3a2a4",
+                        "up_time": 0
+                    },
+                    {
+                        "id": 8384,
+                        "name": "妖精的尾巴 第三季",
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/a09ae3b7-0b86-4ae4-b6a3-ffad68a5510b.jpg",
+                        "up_time": 0
+                    },
+                    {
+                        "id": 8356,
+                        "name": "关于我转生变成史莱姆这档事",
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/926a0c17-a1dd-4883-9e51-ccda9a2bbe80.jpg",
+                        "up_time": 0
+                    },
+                    {
+                        "id": 8357,
+                        "name": "哥布林杀手",
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/7db7e225-c42e-4b72-b054-ea9bf3521778",
+                        "up_time": 0
+                    },
+                    {
+                        "id": 1005,
+                        "name": "OVERLORD 第三季",
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/27ad6862-af4f-4d4b-b9fc-8e64054dbb0b.jpg",
+                        "up_time": 0
+                    },
+                    {
+                        "id": 7239,
+                        "name": "进击的巨人第三季",
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/cfb8c064-1ac7-4c57-bba7-f8de8fd81227.jpg",
+                        "up_time": 0
+                    },
+                    {
+                        "id": 8359,
+                        "name": "魔法禁书目录 第三季",
+                        "cover": "http://moego-prod-1256467324.file.myqcloud.com/picture/drama/7e937ad0-bfa0-4a2a-bbd9-91779251b582.jpg",
+                        "up_time": 0
+                    },
+                    {
+                        "id": 8443,
+                        "name": "镇魂街第二季",
+                        "cover": "http://moego-test-1256467324.file.myqcloud.com/picture/drama/00f4c501-3984-41b5-8975-439a80097f33.jpg",
+                        "up_time": 0
+                    }
+                ]
+            },
+            {
+                "type": 5,
+                "section_title": "二次元资讯",
+                "list": [
+                    {
+                        "id": 9,
+                        "title": "【求漫】2003-2006出本连载的一部漫画，几个女孩的魔法",
+                        "from": "百度贴吧-漫画吧",
+                        "label": [
+                            "女孩",
+                            "礼物",
+                            "得到",
+                            "眼镜",
+                            "魔法"
+                        ],
+                        "like_num": "3",
+                        "comment_num": "16",
+                        "share_num": "1",
+                        "read_num": 189,
+                        "user": {
+                            "moego_code": "23121534",
+                            "nickname": "ouran"
+                        },
+                        "created_at": "2019-02-18 14:49:57",
+                        "photos": [
+                            {
+                                "url": "http://fwimage.cnfanews.com/websiteimg/2019/20190218/20353182/e9ba7e9a4352c9fa28059e4c2c868fa6.png",
+                                "width": 0,
+                                "height": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "title": "大哥们求助",
+                        "from": "百度贴吧-漫画吧",
+                        "label": [
+                            "分割",
+                            "漫画",
+                            "APP",
+                            "页面",
+                            "知道"
+                        ],
+                        "like_num": "1",
+                        "comment_num": "10",
+                        "share_num": 0,
+                        "read_num": 153,
+                        "user": {
+                            "moego_code": "23914401",
+                            "nickname": "蛇姬"
+                        },
+                        "created_at": "2019-02-18 14:49:57",
+                        "photos": [
+                            {
+                                "url": "http://fwimage.cnfanews.com/websiteimg/2019/20190218/20353182/10050d10bf56197b3d0aafa6b4da46d8.jpg",
+                                "width": 0,
+                                "height": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 11,
+                        "title": "请问这个背景的小鳄鱼是什么漫画?有没有大佬知道",
+                        "from": "百度贴吧-漫画吧",
+                        "label": [
+                            "知道",
+                            "请问",
+                            "小鳄鱼",
+                            "背景",
+                            "漫画"
+                        ],
+                        "like_num": "1",
+                        "comment_num": "34",
+                        "share_num": "2",
+                        "read_num": 481,
+                        "user": {
+                            "moego_code": "88894584",
+                            "nickname": "不宁唯是"
+                        },
+                        "created_at": "2019-02-18 14:49:57",
+                        "photos": [
+                            {
+                                "url": "http://fwimage.cnfanews.com/websiteimg/2019/20190218/20353182/98967201f46adfeade321b46d4d707fc.png",
+                                "width": 0,
+                                "height": 0
+                            },
+                            {
+                                "url": "http://fwimage.cnfanews.com/websiteimg/2019/20190218/20353182/a9bba8c50a549607742411b9b971a76a.jpg",
+                                "width": 0,
+                                "height": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "title": "【2月】Star☆Twinkle 光之美少女 04预告【中文字幕】",
+                        "from": "bilibili-番剧-资讯-全部",
+                        "label": [
+                            "Star",
+                            "中文字幕",
+                            "美少女",
+                            "Twinkle",
+                            "预告"
+                        ],
+                        "like_num": "1",
+                        "comment_num": "0",
+                        "share_num": 0,
+                        "read_num": 107,
+                        "user": {
+                            "moego_code": "64438117",
+                            "nickname": "红真九郎"
+                        },
+                        "created_at": "2019-02-18 14:46:56",
+                        "photos": []
+                    },
+                    {
+                        "id": 8,
+                        "title": "旅行200秒：冬日里的一抹红，这家酒店用108种方式来爱你",
+                        "from": "bilibili-番剧-资讯-全部",
+                        "label": [
+                            "酒店",
+                            "方式",
+                            "旅行",
+                            "冬日"
+                        ],
+                        "like_num": "2",
+                        "comment_num": "15",
+                        "share_num": 0,
+                        "read_num": 120,
+                        "user": {
+                            "moego_code": "41390667",
+                            "nickname": "悠莉"
+                        },
+                        "created_at": "2019-02-18 14:46:56",
+                        "photos": []
+                    },
+                    {
+                        "id": 5,
+                        "title": "谁有天使般的声优？日本网友进行声优人气投票",
+                        "from": "动漫之家",
+                        "label": [
+                            "声优",
+                            "配音",
+                            "角色",
+                            "投票",
+                            "得票率"
+                        ],
+                        "like_num": "0",
+                        "comment_num": "39",
+                        "share_num": "4",
+                        "read_num": 426,
+                        "user": {
+                            "moego_code": "82223010",
+                            "nickname": "观月歌帆"
+                        },
+                        "created_at": "2019-02-18 14:40:45",
+                        "photos": [
+                            {
+                                "url": "http://moego-test-1256467324.file.myqcloud.com/picture/information/b1fb43ef-54a6-4e1a-8f57-1b36a6c1f183.jpg",
+                                "width": 0,
+                                "height": 0
+                            },
+                            {
+                                "url": "http://moego-test-1256467324.file.myqcloud.com/picture/information/a96fb37e-038a-49d3-8939-222e3fe9991d.jpg",
+                                "width": 0,
+                                "height": 0
+                            },
+                            {
+                                "url": "http://moego-test-1256467324.file.myqcloud.com/picture/information/8002d84e-ddb2-457e-adcd-42d95c3414e9.jpg",
+                                "width": 0,
+                                "height": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "title": "联合国呼吁通过跨国审判严惩大尺度二次元儿童作品作者",
+                        "from": "动漫之家",
+                        "label": [
+                            "相关",
+                            "日本",
+                            "联合国",
+                            "儿童",
+                            "禁止"
+                        ],
+                        "like_num": "2",
+                        "comment_num": "45",
+                        "share_num": 0,
+                        "read_num": 147,
+                        "user": {
+                            "moego_code": "62143422",
+                            "nickname": "朝仓凉子"
+                        },
+                        "created_at": "2019-02-18 14:40:45",
+                        "photos": [
+                            {
+                                "url": "http://fwimage.cnfanews.com/websiteimg/2019/20190218/20301034/0dbe82ad02929d89de74b00e4d102437.jpg",
+                                "width": 0,
+                                "height": 0
+                            },
+                            {
+                                "url": "http://fwimage.cnfanews.com/websiteimg/2019/20190218/20301034/6997a94653e08d6ff7e423e87ef80de0.jpg",
+                                "width": 0,
+                                "height": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "_links": {
+            "self": {
+                "href": "http://t.moegoapp.mocaapp.cn/acgn/site?app_version_code=27&timestamp=1553442953&device_id=2fde5b46688c4117824ba692f62be795&access_token=N4wEIfLBy_DKABCUj55v8wmFyyCt7tGi&platform=0&dp-2-page=1"
+            }
+        },
+        "_meta": {
+            "totalCount": 6,
+            "pageCount": 1,
+            "currentPage": 1,
+            "perPage": 20
+        }
+    },
+    "time_point": 1553316838
+}

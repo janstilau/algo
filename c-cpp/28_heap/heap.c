@@ -14,7 +14,7 @@ struct element {
 
 struct heap {
 	union {// 因为堆实际上是从1开始的, 所以第一个元素的位置浪费掉了. 所以, 这里用 union, 将数组的第一个元素使用了. 个人觉得没有必要.
-		unsigned long elements;
+		unsigned long size; // 这个命名不好, 应该叫 size 或者 length 之类的.
 		struct element *elem[MAX_HEAP_SIZE];
 	};
 };
@@ -33,7 +33,7 @@ void dump_heap(struct heap *heap, int index)
 	struct element *elem;
 	int level;
 
-	if (index > heap->elements)
+	if (index > heap->size)
 		return;
 
 	elem = heap->elem[index];
@@ -52,13 +52,14 @@ void dump_heap(struct heap *heap, int index)
 	dump_heap(heap, index * 2);
 }
 
+
+// 打印多少个元素.
 void dump(struct heap *heap, int elements)
 {
 	int i;
 
 	for (i = 1; i <= elements; i++)
 		printf("[%02d]: %4d\n", i, heap->elem[i]->data);
-
 }
 
 struct element* create_element(int data)
@@ -84,7 +85,7 @@ void fake_a_heap(struct heap *heap)
 	for (i = 0; i < 10; i++)
 		heap->elem[i+1] = create_element(data[i]);
 
-	heap->elements = 10;
+	heap->size = 10;
 }
 
 void swap(struct heap *heap, int i, int j)
@@ -99,7 +100,7 @@ void swap(struct heap *heap, int i, int j)
 void heapify(struct heap *heap, int parent)
 {
 	struct element **elem = heap->elem;
-	int elements = heap->elements;
+	int elements = heap->size;
 	int left, right, max;
 
 	while (true) {
@@ -124,17 +125,17 @@ void build_heap(struct heap *heap)
 {
 	int i;
 
-	for (i = heap->elements / 2; i >= 1; i--)
+	for (i = heap->size / 2; i >= 1; i--)
 		heapify(heap, i);
 }
 
 int heap_sort(struct heap *heap)
 {
-	int elements = heap->elements;
+	int elements = heap->size;
 
-	while (heap->elements) {
-		swap(heap, 1, heap->elements);
-		heap->elements--;
+	while (heap->size) {
+		swap(heap, 1, heap->size);
+		heap->size--;
 		heapify(heap, 1);
 	}
 	

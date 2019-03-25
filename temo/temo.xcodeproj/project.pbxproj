@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E6956E2245F69500D1142D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E6956D2245F69500D1142D /* AppDelegate.m */; };
+		06E695712245F69500D1142D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E695702245F69500D1142D /* ViewController.m */; };
+		06E695742245F69500D1142D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E695722245F69500D1142D /* Main.storyboard */; };
+		06E695762245F69600D1142D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E695752245F69600D1142D /* Assets.xcassets */; };
+		06E695792245F69600D1142D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E695772245F69600D1142D /* LaunchScreen.storyboard */; };
+		06E6957C2245F69600D1142D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E6957B2245F69600D1142D /* main.m */; };
+		06E695862245F69600D1142D /* temoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E695852245F69600D1142D /* temoTests.m */; };
+		06E695912245F69600D1142D /* temoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E695902245F69600D1142D /* temoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06E695822245F69600D1142D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06E695612245F69400D1142D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06E695682245F69500D1142D;
+			remoteInfo = temo;
+		};
+		06E6958D2245F69600D1142D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06E695612245F69400D1142D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06E695682245F69500D1142D;
+			remoteInfo = temo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E695692245F69500D1142D /* temo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = temo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E6956C2245F69500D1142D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06E6956D2245F69500D1142D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06E6956F2245F69500D1142D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06E695702245F69500D1142D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06E695732245F69500D1142D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06E695752245F69600D1142D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06E695782245F69600D1142D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06E6957A2245F69600D1142D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E6957B2245F69600D1142D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06E695812245F69600D1142D /* temoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = temoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E695852245F69600D1142D /* temoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = temoTests.m; sourceTree = "<group>"; };
+		06E695872245F69600D1142D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E6958C2245F69600D1142D /* temoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = temoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E695902245F69600D1142D /* temoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = temoUITests.m; sourceTree = "<group>"; };
+		06E695922245F69600D1142D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06E695662245F69500D1142D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E6957E2245F69600D1142D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E695892245F69600D1142D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E695602245F69400D1142D = {
+			isa = PBXGroup;
+			children = (
+				06E6956B2245F69500D1142D /* temo */,
+				06E695842245F69600D1142D /* temoTests */,
+				06E6958F2245F69600D1142D /* temoUITests */,
+				06E6956A2245F69500D1142D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06E6956A2245F69500D1142D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06E695692245F69500D1142D /* temo.app */,
+				06E695812245F69600D1142D /* temoTests.xctest */,
+				06E6958C2245F69600D1142D /* temoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06E6956B2245F69500D1142D /* temo */ = {
+			isa = PBXGroup;
+			children = (
+				06E6956C2245F69500D1142D /* AppDelegate.h */,
+				06E6956D2245F69500D1142D /* AppDelegate.m */,
+				06E6956F2245F69500D1142D /* ViewController.h */,
+				06E695702245F69500D1142D /* ViewController.m */,
+				06E695722245F69500D1142D /* Main.storyboard */,
+				06E695752245F69600D1142D /* Assets.xcassets */,
+				06E695772245F69600D1142D /* LaunchScreen.storyboard */,
+				06E6957A2245F69600D1142D /* Info.plist */,
+				06E6957B2245F69600D1142D /* main.m */,
+			);
+			path = temo;
+			sourceTree = "<group>";
+		};
+		06E695842245F69600D1142D /* temoTests */ = {
+			isa = PBXGroup;
+			children = (
+				06E695852245F69600D1142D /* temoTests.m */,
+				06E695872245F69600D1142D /* Info.plist */,
+			);
+			path = temoTests;
+			sourceTree = "<group>";
+		};
+		06E6958F2245F69600D1142D /* temoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06E695902245F69600D1142D /* temoUITests.m */,
+				06E695922245F69600D1142D /* Info.plist */,
+			);
+			path = temoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06E695682245F69500D1142D /* temo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E695952245F69600D1142D /* Build configuration list for PBXNativeTarget "temo" */;
+			buildPhases = (
+				06E695652245F69500D1142D /* Sources */,
+				06E695662245F69500D1142D /* Frameworks */,
+				06E695672245F69500D1142D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = temo;
+			productName = temo;
+			productReference = 06E695692245F69500D1142D /* temo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06E695802245F69600D1142D /* temoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E695982245F69600D1142D /* Build configuration list for PBXNativeTarget "temoTests" */;
+			buildPhases = (
+				06E6957D2245F69600D1142D /* Sources */,
+				06E6957E2245F69600D1142D /* Frameworks */,
+				06E6957F2245F69600D1142D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06E695832245F69600D1142D /* PBXTargetDependency */,
+			);
+			name = temoTests;
+			productName = temoTests;
+			productReference = 06E695812245F69600D1142D /* temoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06E6958B2245F69600D1142D /* temoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E6959B2245F69600D1142D /* Build configuration list for PBXNativeTarget "temoUITests" */;
+			buildPhases = (
+				06E695882245F69600D1142D /* Sources */,
+				06E695892245F69600D1142D /* Frameworks */,
+				06E6958A2245F69600D1142D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06E6958E2245F69600D1142D /* PBXTargetDependency */,
+			);
+			name = temoUITests;
+			productName = temoUITests;
+			productReference = 06E6958C2245F69600D1142D /* temoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06E695612245F69400D1142D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JustinLau;
+				TargetAttributes = {
+					06E695682245F69500D1142D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					06E695802245F69600D1142D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 06E695682245F69500D1142D;
+					};
+					06E6958B2245F69600D1142D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 06E695682245F69500D1142D;
+					};
+				};
+			};
+			buildConfigurationList = 06E695642245F69500D1142D /* Build configuration list for PBXProject "temo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06E695602245F69400D1142D;
+			productRefGroup = 06E6956A2245F69500D1142D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06E695682245F69500D1142D /* temo */,
+				06E695802245F69600D1142D /* temoTests */,
+				06E6958B2245F69600D1142D /* temoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06E695672245F69500D1142D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E695792245F69600D1142D /* LaunchScreen.storyboard in Resources */,
+				06E695762245F69600D1142D /* Assets.xcassets in Resources */,
+				06E695742245F69500D1142D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E6957F2245F69600D1142D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E6958A2245F69600D1142D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06E695652245F69500D1142D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E695712245F69500D1142D /* ViewController.m in Sources */,
+				06E6957C2245F69600D1142D /* main.m in Sources */,
+				06E6956E2245F69500D1142D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E6957D2245F69600D1142D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E695862245F69600D1142D /* temoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E695882245F69600D1142D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E695912245F69600D1142D /* temoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06E695832245F69600D1142D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06E695682245F69500D1142D /* temo */;
+			targetProxy = 06E695822245F69600D1142D /* PBXContainerItemProxy */;
+		};
+		06E6958E2245F69600D1142D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06E695682245F69500D1142D /* temo */;
+			targetProxy = 06E6958D2245F69600D1142D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06E695722245F69500D1142D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06E695732245F69500D1142D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06E695772245F69600D1142D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06E695782245F69600D1142D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06E695932245F69600D1142D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06E695942245F69600D1142D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06E695962245F69600D1142D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE2958KSXV;
+				INFOPLIST_FILE = temo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redstar.demo.temo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06E695972245F69600D1142D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE2958KSXV;
+				INFOPLIST_FILE = temo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redstar.demo.temo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06E695992245F69600D1142D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE2958KSXV;
+				INFOPLIST_FILE = temoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redstar.demo.temoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/temo.app/temo";
+			};
+			name = Debug;
+		};
+		06E6959A2245F69600D1142D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE2958KSXV;
+				INFOPLIST_FILE = temoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redstar.demo.temoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/temo.app/temo";
+			};
+			name = Release;
+		};
+		06E6959C2245F69600D1142D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE2958KSXV;
+				INFOPLIST_FILE = temoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redstar.demo.temoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = temo;
+			};
+			name = Debug;
+		};
+		06E6959D2245F69600D1142D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE2958KSXV;
+				INFOPLIST_FILE = temoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redstar.demo.temoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = temo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E695642245F69500D1142D /* Build configuration list for PBXProject "temo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E695932245F69600D1142D /* Debug */,
+				06E695942245F69600D1142D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E695952245F69600D1142D /* Build configuration list for PBXNativeTarget "temo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E695962245F69600D1142D /* Debug */,
+				06E695972245F69600D1142D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E695982245F69600D1142D /* Build configuration list for PBXNativeTarget "temoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E695992245F69600D1142D /* Debug */,
+				06E6959A2245F69600D1142D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E6959B2245F69600D1142D /* Build configuration list for PBXNativeTarget "temoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E6959C2245F69600D1142D /* Debug */,
+				06E6959D2245F69600D1142D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06E695612245F69400D1142D /* Project object */;
+}

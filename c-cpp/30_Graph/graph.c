@@ -5,14 +5,15 @@
 #include <time.h>
 
 struct vertex;
+
 struct vertex_adjs {
-	struct vertex *v;
+	struct vertex *v; // 值域, 这里是用一个指针完成的. 在每个节点里面的数据量大的时候, 不能希望 adj 里面还有数据这回事.
 	struct vertex_adjs *next;
 };
 
 struct vertex {
-	int data;
-	struct vertex_adjs *adj;
+	int data; // 顶点数据
+	struct vertex_adjs *adj; // 顶点关联的链表
 };
 
 #define MAX_GRAPH_VERTEX (1 << 8)
